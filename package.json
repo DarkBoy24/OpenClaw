@@ -1,0 +1,11 @@
+{
+  "name": "openclaw-bot",
+  "version": "1.0.0",
+  "description": "OpenClaw Telegram Bot",
+  "scripts": {
+    "start": "openclaw gateway --port $PORT"
+  },
+  "dependencies": {
+    "openclaw": "latest"
+  }
+}

@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: openclaw-bot
+    env: node
+    buildCommand: npm install -g openclaw@latest
+    startCommand: openclaw gateway --port $PORT
+    envVars:
+      - key: PORT
+        value: 8080
